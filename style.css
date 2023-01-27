@@ -1,0 +1,50 @@
+button {
+	border-radius: 100% !important;
+	width: 7px !important;
+	height: 7px !important;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.ruppee {
+	font-size: 20px;
+	position: relative;
+	top: -0.5vmax;
+}
+
+#mob-view {
+	display: none;
+}
+
+@media screen and (max-width: 730px) {
+	#carouselExampleDark {
+		display: none;
+	}
+
+	#mob-view {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: yellow;
+	}
+
+	.mob-card {
+		width: 80vw;
+        background-color: #fff;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin: 2vmax;
+        border-radius: 15px;
+        padding: 2.5vmax 2vmax;
+	}
+
+	.mob-card > p {
+		text-align: start;
+	}
+}
